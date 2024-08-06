@@ -1,4 +1,4 @@
-# DataHarvester
+# DatasetHarvester
 *A collection of scripts to easily (automatically) download datasets for my research.* 
 
 ---
@@ -25,5 +25,3 @@
     ```
 > [!NOTE]
 > It took me circa 3h30min to download the complete dataset
-
-</details>
