@@ -1,0 +1,14 @@
+# Need to adapt the URLs
+train:
+  sav_000.tar: "URL0"
+  sav_001.tar: "URL1"  # And so on
+
+test:
+  sav_test.tar: "URL"
+
+val:
+  sav_val.tar: "URL"
+
+check_sum:
+  sav_md5sum.chk: "URL"
+  sav_sha256sum.chk: "URL"
