@@ -22,6 +22,10 @@ def extract_datachunk(filename: str, file_destination: str):
     os.system(f' tar -xf {filename} -C {file_destination}')
 
 
+def clean_tar_chunk(filename: str):
+    os.system(f'rm {filename}')
+
+
 def download_and_extract_data_split(
     sav_link_collection: dict, file_destination: str, split: str
 ):
@@ -30,8 +34,7 @@ def download_and_extract_data_split(
         print(f"\n-- Downloading and Extracting {chunck_name} --")
         download_datachunk(chunck_name, chunk_url)
         extract_datachunk(chunck_name, file_destination)
-
-        os.system(f'rm {chunck_name}')  # clean up
+        clean_tar_chunk(chunck_name)
 
     print(f"\n-- Downloaded and Extracted SA-V {split} --")
 
@@ -50,6 +53,7 @@ def main():
     for split in splits:
         download_and_extract_data_split(
             sav_link_collection, DESTINATION_FILE, split)
+
 
 # - RUN ---
 if __name__ == "__main__":

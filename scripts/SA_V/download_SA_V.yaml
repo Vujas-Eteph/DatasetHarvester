@@ -1,7 +1,7 @@
 # Need to adapt the URLs
 train:
   sav_000.tar: "URL0"
-  sav_001.tar: "URL1"  # And so on
+  sav_001.tar: "URL1"  # and so on
 
 test:
   sav_test.tar: "URL"
