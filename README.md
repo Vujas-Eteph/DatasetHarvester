@@ -7,7 +7,7 @@
 *Introduced in the [SAM 2: Segment Anything in Images and Videos Paper](https://ai.meta.com/research/publications/sam-2-segment-anything-in-images-and-videos/) / [Code](https://github.com/facebookresearch/segment-anything-2)*
 1. Fill this [Meta document](https://ai.meta.com/datasets/segment-anything-video-downloads/) out to get access to the URLs
 2. Adapt the corresponding [download_SA_V.yaml](./scripts/SA_V/download_SA_V.yaml) with the URLs
-3. Adapt the paths in [download_SA_V.py](./scripts/SA_V/download_SA_V.py)
+3. Adapt the paths in [download_SA_V.py](https://github.com/Vujas-Eteph/DatasetHarvester/blob/6c785a019b467b36622d348fb4f87f4256f960ba/scripts/SA_V/download_SA_V.py#L44) - line 44
 4. Run
      ```zsh
      python download_SA_V.py
