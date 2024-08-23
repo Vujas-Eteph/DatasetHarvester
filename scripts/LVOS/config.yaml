@@ -1,0 +1,15 @@
+dataset:
+  LVOS_2:
+    train: https://drive.google.com/uc?id=1-ehpl5s0Fd14WwtT-GmWtIWa_BxZl9D6
+    val: https://drive.google.com/uc?id=17Hwc__6i2rpF5e2s5OPqoywNxG5bzlcO
+    test: https://drive.google.com/uc?id=1Vp_y8dSUO4ktYmeBFkIQnmAxK6bl3Eyf
+  # If you want to add LVOS_1
+
+
+attributes:  # Only available for the LVOS 2 version
+  train: https://drive.google.com/uc?id=1kFe-ukxV28d9xUT2KidgnVfVvbWInTue
+  val: https://drive.google.com/uc?id=1j7nmzSuJZrG6vmDXCkWbJ7OyR_2noR6W
+  test: https://drive.google.com/uc?id=1WyUy3f5Dls0o_J7Ds4gbtBgY3Ttu5qB3
+
+
+destination: ../test_LVOS_dataset/

@@ -25,3 +25,7 @@
     ```
 > [!NOTE]
 > It took me circa 3h30min to download the complete dataset
+
+
+## ↪️ Download the [LVOS Dataset (v1 and v2)](https://github.com/LingyiHongfd/LVOS)
+
