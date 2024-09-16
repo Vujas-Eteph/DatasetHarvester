@@ -10,19 +10,22 @@
 3. Adapt the paths in [download_SA_V.py](https://github.com/Vujas-Eteph/DatasetHarvester/blob/6c785a019b467b36622d348fb4f87f4256f960ba/scripts/SA_V/download_SA_V.py#L44) - line 44
 4. Run
      ```zsh
+     cd scripts/SA_V/
      python download_SA_V.py
      ```
 5. More stuff [**HERE**](https://github.com/facebookresearch/segment-anything-2/blob/main/sav_dataset)
-  - Citation
-    ```bibtex
-    @article{ravi2024sam2,
-      title={SAM 2: Segment Anything in Images and Videos},
-      author={Ravi, Nikhila and Gabeur, Valentin and Hu, Yuan-Ting and Hu, Ronghang and Ryali, Chaitanya and Ma, Tengyu and Khedr, Haitham and R{\"a}dle, Roman and Rolland, Chloe and Gustafson, Laura and Mintun, Eric and Pan, Junting and Alwala, Kalyan Vasudev and Carion, Nicolas and Wu, Chao-Yuan and Girshick, Ross and Doll{\'a}r, Piotr and Feichtenhofer, Christoph},
-      journal={arXiv preprint arXiv:2408.00714},
-      url={https://arxiv.org/abs/2408.00714},
-      year={2024}
-    }
-    ```
+
+- Citation
+  ```bibtex
+  @article{ravi2024sam2,
+    title={SAM 2: Segment Anything in Images and Videos},
+    author={Ravi, Nikhila and Gabeur, Valentin and Hu, Yuan-Ting and Hu, Ronghang and Ryali, Chaitanya and Ma, Tengyu and Khedr, Haitham and R{\"a}dle, Roman and Rolland, Chloe and Gustafson, Laura and Mintun, Eric and Pan, Junting and Alwala, Kalyan Vasudev and Carion, Nicolas and Wu, Chao-Yuan and Girshick, Ross and Doll{\'a}r, Piotr and Feichtenhofer, Christoph},
+    journal={arXiv preprint arXiv:2408.00714},
+    url={https://arxiv.org/abs/2408.00714},
+    year={2024}
+  }
+  ```
+
 > [!NOTE]
 > It took me circa 3h30min to download the complete dataset (using a single core)
 
@@ -31,7 +34,7 @@
 *Introduced in [LVOS: A Benchmark for Large-scale
 Long-term Video Object Segmentation](https://arxiv.org/pdf/2404.19326)*
 
-1. Adapt the path in ??
+1. Adapt the path in 
 2. Run 
      ```zsh
      cd scripts/LVOS/
@@ -39,5 +42,16 @@ Long-term Video Object Segmentation](https://arxiv.org/pdf/2404.19326)*
      ```
 3. [Official Evaluation ToolKit](https://github.com/LingyiHongfd/lvos-evaluation)
 
+- Citation
+  ```bibtex
+  @InProceedings{Hong_2023_ICCV,
+      author    = {Hong, Lingyi and Chen, Wenchao and Liu, Zhongying and Zhang, Wei and Guo, Pinxue and Chen, Zhaoyu and Zhang, Wenqiang},
+      title     = {LVOS: A Benchmark for Long-term Video Object Segmentation},
+      booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+      month     = {October},
+      year      = {2023},
+      pages     = {13480-13492}
+  }
+  ```
 
 ## - Download the [VOST Dataset](https://www.vostdataset.org/index.html)

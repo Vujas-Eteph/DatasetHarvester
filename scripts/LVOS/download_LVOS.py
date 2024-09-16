@@ -1,7 +1,8 @@
+# -----------------------------------------------------------
 # Automatically download the LVOS 1 and LVOS 2 dataset
 # Reference: https://github.com/LingyiHongfd/LVOS
 # by Stéphane Vujasinovic
-
+# -----------------------------------------------------------
 
 # - IMPORTS ---
 import os

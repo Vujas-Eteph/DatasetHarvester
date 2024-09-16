@@ -12,4 +12,4 @@ attributes:  # Only available for the LVOS 2 version
   test: https://drive.google.com/uc?id=1WyUy3f5Dls0o_J7Ds4gbtBgY3Ttu5qB3
 
 
-destination: ../test_LVOS_dataset/
+destination: ../../../WORK_Station/VOS/UVOS/datasets/
