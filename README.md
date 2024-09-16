@@ -26,7 +26,7 @@
   }
   ```
 
-> [!NOTE]
+> [!NOTE]  
 > It took me circa 3h30min to download the complete dataset (using a single core)
 
 
@@ -53,5 +53,8 @@ Long-term Video Object Segmentation](https://arxiv.org/pdf/2404.19326)*
       pages     = {13480-13492}
   }
   ```
+
+> [!NOTE]  
+> Don't run too many times on the same day the download on the same PC...
 
 ## - Download the [VOST Dataset](https://www.vostdataset.org/index.html)
