@@ -34,7 +34,7 @@
 *Introduced in [LVOS: A Benchmark for Large-scale
 Long-term Video Object Segmentation](https://arxiv.org/pdf/2404.19326)*
 
-1. Adapt [the path in line](https://github.com/Vujas-Eteph/DatasetHarvester/blob/fba7f31ecb6380566afac1c48ab5bcbcc5273bc1/scripts/LVOS/config.yaml#L15)
+1. Adapt [the path in l. 15](https://github.com/Vujas-Eteph/DatasetHarvester/blob/fba7f31ecb6380566afac1c48ab5bcbcc5273bc1/scripts/LVOS/config.yaml#L15)
 2. Run 
      ```zsh
      cd scripts/LVOS/
