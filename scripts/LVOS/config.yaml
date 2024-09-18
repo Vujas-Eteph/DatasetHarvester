@@ -7,9 +7,11 @@ dataset:
 
 
 attributes:  # Only available for the LVOS 2 version
-  train: https://drive.google.com/uc?id=1kFe-ukxV28d9xUT2KidgnVfVvbWInTue
-  val: https://drive.google.com/uc?id=1j7nmzSuJZrG6vmDXCkWbJ7OyR_2noR6W
-  test: https://drive.google.com/uc?id=1WyUy3f5Dls0o_J7Ds4gbtBgY3Ttu5qB3
+  train: https://drive.google.com/uc?id=1oYjE20adHsej-Zeiat2d4bP8H7EoZFSy
+  val: https://drive.google.com/uc?id=1IRzRLUOvDBazalE895xa-bT8C8Qi5O9R
+  test: https://drive.google.com/uc?id=1kqVJSCJdrT32j4hsIPb9URClRfYZxI66
+
+
 
 
 destination: ../../../WORK_Station/VOS/UVOS/datasets/
