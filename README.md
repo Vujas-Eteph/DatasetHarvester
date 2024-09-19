@@ -38,7 +38,11 @@ Long-term Video Object Segmentation](https://arxiv.org/pdf/2404.19326)*
 2. Run 
      ```zsh
      cd scripts/LVOS/
-     python download_LVOS.py 
+     python download_LVOS.py
+     ```
+     ***Optional:** Run the following script if needed*
+     ```zsh
+     python annotation_first_only.py
      ```
 3. [Official Evaluation ToolKit](https://github.com/LingyiHongfd/lvos-evaluation)
 
