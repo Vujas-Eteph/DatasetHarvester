@@ -2,6 +2,9 @@
 *A collection of scripts to easily download Video Object Segmentation (VOS) datasets for my research.* 
 
 ---
+> [!NOTE]
+> Contributions are welcomed to improve this repo 🤗
+---
 
 ## - Download the [SA-V Dataset](https://ai.meta.com/datasets/segment-anything-video/)
 *Introduced in [SAM 2: Segment Anything in Images and Videos Paper](https://ai.meta.com/research/publications/sam-2-segment-anything-in-images-and-videos/) / [Code](https://github.com/facebookresearch/segment-anything-2)*
