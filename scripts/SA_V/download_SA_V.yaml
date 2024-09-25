@@ -4,7 +4,7 @@ train:
   sav_001.tar: "URL1"
   sav_002.tar: "URL2"
   
-  sav_00n.tar: "URL3"  # and so on
+  sav_00n.tar: "URLN"  # and so on
 
 test:
   sav_test.tar: "URL"
