@@ -4,6 +4,7 @@
 ---
 > [!NOTE]
 > Contributions are welcomed to improve this repo 🤗
+> This project is currently on hold, as I'm occupied with other stuffs, but I'll try to wrap it up as soon as possible
 ---
 
 ## - Download the [SA-V Dataset](https://ai.meta.com/datasets/segment-anything-video/)
