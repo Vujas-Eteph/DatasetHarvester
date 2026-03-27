@@ -17,7 +17,7 @@
 | **DAVIS** | ⚠️ Not Supported | 2016-2019 | - |
 | **YouTube-VOS**| ⚠️ Not Supported | 2018-2022 | - |
 
-> [!TIPS]  
+> [!TIP]  
 > Descriptions, Official Repos & citations in [DATASETS.md](DATASETS.md).
 > URLs for [supported_datasets.yaml](supported_datasets.yaml) and [not_supported_datasets.yaml](not_supported_datasets.yaml).
 
