@@ -1,68 +1,62 @@
 # DatasetHarvester
-*A collection of scripts to easily download Video Object Segmentation (VOS) datasets for my research.* 
+*Easily download and set up Video Object Segmentation (VOS) datasets.*
 
----
-> [!NOTE]
-> Contributions are welcomed to improve this repo 🤗
-> This project is currently on hold, as I'm occupied with other stuffs, but I'll try to wrap it up as soon as possible
----
+### Overview
 
-## - Download the [SA-V Dataset](https://ai.meta.com/datasets/segment-anything-video/)
-*Introduced in [SAM 2: Segment Anything in Images and Videos Paper](https://ai.meta.com/research/publications/sam-2-segment-anything-in-images-and-videos/) / [Code](https://github.com/facebookresearch/segment-anything-2)*
-1. Fill this [Meta document](https://ai.meta.com/datasets/segment-anything-video-downloads/) out to get access to the URLs
-2. Adapt the corresponding [download_SA_V.yaml](./scripts/SA_V/download_SA_V.yaml) with the URLs
-3. Adapt the paths in [download_SA_V.py](https://github.com/Vujas-Eteph/DatasetHarvester/blob/6c785a019b467b36622d348fb4f87f4256f960ba/scripts/SA_V/download_SA_V.py#L44) - line 44
+| Dataset | Status | Version(s) | Attributes |
+| :--- | :--- | :--- | :--- |
+| **SA-V** | ✅ Semi-Auto | - | - |
+| **LVOS** | ✅ Auto | v1, v2 | Long-Term |
+| **MOSE** | ✅ Auto | v1, v2 | Complex Scenarios |
+| **OVIS** | ✅ Auto | - | - |
+| **BURST** | ✅ Auto | - | - |
+| **PUMaVOS** | ✅ Auto | - | Partial Masks|
+| **VOST** | ✅ Auto | - | - |
+| **Static** | ✅ Auto | - | Only for Training |
+| **DiDi** | ⚠️ Manual | - | Distractor Heavy |
+| **DAVIS** | ⚠️ Not Supported | 2016-2019 | - |
+| **YouTube-VOS**| ⚠️ Not Supported | 2018-2022 | - |
+
+> [!TIPS]  
+> Descriptions, Official Repos & citations in [DATASETS.md](DATASETS.md).
+> URLs for [supported_datasets.yaml](supported_datasets.yaml) and [not_supported_datasets.yaml](not_supported_datasets.yaml).
+
+
+### Download LVOS, MOSE, OVIS, BURST, PUMaVOS, VOST & Static
+
+```fish
+python WizHarvester.py
+```
+
+### Download the Meta's [SA-V Dataset](https://ai.meta.com/datasets/segment-anything-video/)
+
+1. Fill this [Meta document](https://ai.meta.com/datasets/segment-anything-video-downloads/) out to get access to the URLs.
+2. Adapt [download_SA_V.yaml](./scripts/SA_V/download_SA_V.yaml) with the URLs.
+3. Adapt the paths in [line 44 of download_SA_V.py](./scripts/SA_V/download_SA_V.py#L44)
 4. Run
-     ```zsh
+     ```fish
      cd scripts/SA_V/
      python download_SA_V.py
      ```
 5. More stuff [**HERE**](https://github.com/facebookresearch/segment-anything-2/blob/main/sav_dataset)
 
-- Citation
-  ```bibtex
-  @article{ravi2024sam2,
-    title={SAM 2: Segment Anything in Images and Videos},
-    author={Ravi, Nikhila and Gabeur, Valentin and Hu, Yuan-Ting and Hu, Ronghang and Ryali, Chaitanya and Ma, Tengyu and Khedr, Haitham and R{\"a}dle, Roman and Rolland, Chloe and Gustafson, Laura and Mintun, Eric and Pan, Junting and Alwala, Kalyan Vasudev and Carion, Nicolas and Wu, Chao-Yuan and Girshick, Ross and Doll{\'a}r, Piotr and Feichtenhofer, Christoph},
-    journal={arXiv preprint arXiv:2408.00714},
-    url={https://arxiv.org/abs/2408.00714},
-    year={2024}
-  }
-  ```
+
+### Download DAVIS & YouTube-VOS
+
+Use this [script](https://github.com/hkchengrex/Mask-Propagation/blob/main/download_datasets.py) to download YouTubeVOS and DAVIS.
+
+
+### Manual Downloads
+
+Download and extract [DiDi](not_supported_datasets.yaml#9) manually.
+
+---
 
 > [!NOTE]  
-> It took me circa 3h30min to download the complete dataset (using a single core)
+> Contributions are welcome to help keep this repo up to date. 🤗
 
-
-## - Download the [LVOS Dataset (v1 and v2)](https://github.com/LingyiHongfd/LVOS)
-*Introduced in [LVOS: A Benchmark for Large-scale
-Long-term Video Object Segmentation](https://arxiv.org/pdf/2404.19326)*
-
-1. Adapt [the path in l. 15](https://github.com/Vujas-Eteph/DatasetHarvester/blob/fba7f31ecb6380566afac1c48ab5bcbcc5273bc1/scripts/LVOS/config.yaml#L15)
-2. Run 
-     ```zsh
-     cd scripts/LVOS/
-     python download_LVOS.py
-     ```
-     ***Optional:** Run the following script if needed*
-     ```zsh
-     python annotation_first_only.py
-     ```
-3. [Official Evaluation ToolKit](https://github.com/LingyiHongfd/lvos-evaluation)
-
-- Citation
-  ```bibtex
-  @InProceedings{Hong_2023_ICCV,
-      author    = {Hong, Lingyi and Chen, Wenchao and Liu, Zhongying and Zhang, Wei and Guo, Pinxue and Chen, Zhaoyu and Zhang, Wenqiang},
-      title     = {LVOS: A Benchmark for Long-term Video Object Segmentation},
-      booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
-      month     = {October},
-      year      = {2023},
-      pages     = {13480-13492}
-  }
-  ```
-
-> [!NOTE]  
-> Don't run too many times on the same day the download on the same PC...
-
-## - Download the [VOST Dataset](https://www.vostdataset.org/index.html)
+> [!TIP]  
+> Modifed versions to act as pip packages for local evaluations:  
+> vos-benchmark: https://github.com/hkchengrex/vos-benchmark.git  
+> lvos-api: https://github.com/Vujas-Eteph/lvos-evaluation  
+> mose-api: https://github.com/Vujas-Eteph/MOSE-api

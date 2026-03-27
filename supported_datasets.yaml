@@ -1,0 +1,124 @@
+# ----------------------------------------------------
+# SUPPORTED DATASETS
+# ----------------------------------------------------
+GDrive_addr: https://drive.google.com/uc?id=
+
+
+# ----------------------------------------------------
+LVOSv2:
+  train.zip: 1-ehpl5s0Fd14WwtT-GmWtIWa_BxZl9D6
+  valid.zip: 17Hwc__6i2rpF5e2s5OPqoywNxG5bzlcO
+  test.zip: 1Vp_y8dSUO4ktYmeBFkIQnmAxK6bl3Eyf
+
+  meta_train.json: 14sKKxCCKeI_NwmYy9dBU6iTnbPzDD_T7
+  meta_valid.json: 1tdms5oQJRxRkdklTsRsmQGApwe-zbqI7
+  meta_test.json: 1taDtq9XQjsP-k7w7ufDJAMmcbgLJv-4E
+
+  meta_attribute_train.json: 1oYjE20adHsej-Zeiat2d4bP8H7EoZFSy
+  meta_attribute_valid.json: 1IRzRLUOvDBazalE895xa-bT8C8Qi5O9R
+  meta_attribute_test.json: 1kqVJSCJdrT32j4hsIPb9URClRfYZxI66
+
+  meta_attribute_vt.json: 1_0NCh4b-18WZ7EuzrI7iXiOtTl2d8wXY
+
+  # ---
+  # more info: https://lingyihongfd.github.io/lvos.github.io/dataset.html
+
+
+# ----------------------------------------------------
+LVOSv1:
+  train.zip: 1pdA1Y7-VE4coj6yacya-kolZs6hKuQpS
+  valid.zip: 1msjV2AAKROc-UsXh8lUic2gQpsLKfjQ0
+  test.zip: 1zp8uqiby3o-2jSjZOqQx4ILh-LLqTz-0
+
+  meta_train.json: 1ezF21ahzGXxudbRtFySk_DwEc_9bTdr7
+  meta_valid.json: 1oAKwYkXIaBR7fSH_sOhCmjDqK-n09kkX
+  meta_test.json: 1T2YsIpCUa6ozXUlVPN893lpDMjWYLXWN
+
+  meta_expression_train.json: 1FFTDzcDoGaZVbDOJrEyfRc0d7z2Mdxbj
+  meta_expression_valid.json: 1EWw6I4DxOLSba7ibqoDkbRXBKU7W3ily
+  meta_expression_test.json: 17bblswTlrgTIqLNDHASIcUaYwVZMdId8
+
+  # ---
+  # more info: https://lingyihongfd.github.io/lvos.github.io/dataset.html
+
+
+# ----------------------------------------------------
+MOSEv2:
+  train.tar.gz: 1o8Nd9t6oT_ZXmWHlImMzv5i8mn5vwRHm
+  valid.tar.gz: 1iO8dScuVsGXLnrVggVT6C-wSGzN5tiCq
+
+  meta_train.json: 1a6M-BYlCdgIKYNHQzmZwSJSVk4TLDkPh
+  meta_valid.json: 1ue-4sU8WMayBH0JGwdhyON8PXMWER2z8
+
+  # SHA256SUMS: 1r62oCwf5JcfKeL2fXAuC5_TVj8CK1EZX
+  # sample_submission_valid_all.zip: 1vrsUPGf_QQx2Z9VMO4TkKfYHHBIkRWqx
+
+  # ---
+  # more info: https://mose.video/#dataset
+
+
+# ----------------------------------------------------
+MOSEv1:
+  train.tar.gz: 16Ns7a_frLaCo2ug18UIUkzVYFQqyd4N0
+  valid.tar.gz: 1yFoacQ0i3J5q6LmnTVVNTTgGocuPB_hR
+
+  meta_train.json: 1BwGlVBdGTvcRJ5Jezxn5Ucfyu32G2jkL
+  meta_valid.json: 1MmhRXKXFnEwzaoeE0b_e_RQjvVLHOc7I
+
+  # SHA256SUMS: 1qSul3OYaCRhSLmx7rhJxM3nVcCmyK9Q3
+  # sample_submission_valid_all.zip: 1qdkU6yZ0ZxZ0FzOXuRf9wRi5xNxLQoX4
+
+  # more info: https://mose.video/#dataset
+
+
+# ----------------------------------------------------
+OVIS:
+  train.zip: 11DPalTyrI2OdrDai7pG45gn3W10P1XO5
+  valid.zip: 171Z_pqcVkbJQ5lDMVM_mSfscjOPLBW7Z
+  test.zip: 1wAatYKOJPmgh7P-QPJUAF0ZBwt3GpAeJ
+
+  annotations_train.json: 1gIPS-LGJLNhWc4_QGBTGAcSDMtVOaixk
+  annotations_valid.json: 165KJVcFDjiW75PlEqpMcJhG2ChEz6E5w
+  annotations_test.json: 1Oj3HjLkDA7McZ0KjigUzu9dc47Nx5F7Q
+
+  # ---
+  # more info: https://codalab.lisn.upsaclay.fr/competitions/4763#participate-get-data
+
+  # Comment: 
+  # Please use the [annToMask function](https://github.com/youtubevos/cocoapi/blob/f3f9948a1f749fb95797f31a9616872811eea559/PythonAPI/pycocotools/ytvos.py#L276) to load the segmentation annotation.
+
+
+# ----------------------------------------------------
+BURST:
+  train.zip: https://motchallenge.net/data/1-TAO_TRAIN.zip
+  valid.zip: https://motchallenge.net/data/2-TAO_VAL.zip
+  test.zip: https://motchallenge.net/data/3-TAO_TEST.zip
+
+  annotations.zip: https://omnomnom.vision.rwth-aachen.de/data/BURST/annotations.zip
+
+  # ---
+  # more info: https://github.com/Ali2500/BURST-benchmark?tab=readme-ov-file#dataset-download
+
+
+# ----------------------------------------------------
+PUMaVOS:
+  PUMaVOS.zip : 1VAClrxhWWiu9Y39QtcoUhp2YBN7R_ZCD
+
+  # ---
+  # more info: https://github.com/mbzuai-metaverse/XMem2?tab=readme-ov-file#pumavos-dataset
+
+
+# ----------------------------------------------------
+VOST:
+  VOST.zip: https://tri-ml-public.s3.amazonaws.com/datasets/VOST.zip
+
+  # ---
+  # more info: https://www.vostdataset.org/
+
+
+# ----------------------------------------------------
+static:
+  static_data.zip: 1wUJq3HcLdN-z1t4CsUhjeZ9BVDb9YKLd
+
+  # ---
+  # more info: https://www.vostdataset.org/

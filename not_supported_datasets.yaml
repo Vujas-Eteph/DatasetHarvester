@@ -1,0 +1,52 @@
+# ----------------------------------------------------
+# NOT SUPPORTED, but here are the links
+# ----------------------------------------------------
+GDrive_addr: https://drive.google.com/uc?id=
+
+
+# ----------------------------------------------------
+DiDi (Manual Download):
+  didi_manual_download: https://go.vicos.si/didi
+
+  # ---
+  # more info: https://github.com/jovanavidenovic/DAM4SAM?tab=readme-ov-file#didi-a-distractor-distilled-dataset
+
+
+# ----------------------------------------------------
+# Not dealing with nested stuff, good replacement : https://github.com/hkchengrex/Mask-Propagation/blob/main/download_datasets.py
+# ----------------------------------------------------
+
+# ----------------------------------------------------
+YouTubeVOS2019:
+  train.tar: 1lU9jCX-H0ntwh87tt2cA0xEPeWOJzD6S
+  valid.tar: 1bw8KcpzfrT08HYbuROZmY0bp4TkYl4_g
+  test.zip: 1qpp9Dh_lVrmKPboR4wM0PD9iSK6zfqy2
+
+  nested_valid_all_frames:
+    01.7z: 1eELP0IAxPSxuwDY_k8HZ-svSj_HjLpmx
+    02.7z: 1lQzLuuRuuBm-ScfLlf45jzngCkfTFqkz
+
+  nested_test_all_frames:
+    01.7z: 1UYnGTyzH-R2IDWCIGBh-9G6-MOhXAQKE
+    02.7z: 1V9MLwyb_YuhnDCh6n3Hx629Snp1zg-FJ
+
+  test_ft.zip: 19Xtxm4i2jk2LLQiLTfHgcUfrtLp-n7kS
+  scoring_program_release.zip: 1DxW-l8Mstx1vKGt66xBUep79tJtMZw6b
+
+  # ---
+  # more info: https://youtube-vos.org/dataset/vos/
+  # !TODO: Might need to resize the dataset for YouTube to 480p
+
+
+# ----------------------------------------------------
+DAVIS2017:
+  highresolution:
+    trainval.zip: https://data.vision.ee.ethz.ch/csergi/share/davis/DAVIS-2017-trainval-Full-Resolution.zip
+    test-dev.zip: https://data.vision.ee.ethz.ch/csergi/share/davis/DAVIS-2017-test-dev-Full-Resolution.zip
+
+  480p:
+    trainval.zip: https://data.vision.ee.ethz.ch/csergi/share/davis/DAVIS-2017-trainval-480p.zip
+    test-dev.zip: https://data.vision.ee.ethz.ch/csergi/share/davis/DAVIS-2017-test-dev-480p.zip
+
+  # ---
+  # more info: https://davischallenge.org/davis2017/code.html
