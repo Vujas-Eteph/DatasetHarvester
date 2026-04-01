@@ -45,10 +45,19 @@ python WizHarvester.py
 
 Use this [script](https://github.com/hkchengrex/Mask-Propagation/blob/main/download_datasets.py) to download YouTubeVOS and DAVIS.
 
-
 ### Manual Downloads
 
 Download and extract [DiDi](not_supported_datasets.yaml#9) manually.
+
+### For the VOTS dataset/benchmark
+The vot-toolkit handles the installation automatically, only need to find the correct [stack-name]((https://github.com/votchallenge/toolkit/tree/5ee2833290a7087e42613311c0aa14feb2ecabee/vot/stack))
+```xml
+pip install vot-toolkit
+vot initialize <stack_name>  --workspace <stack-name>
+```
+
+More info:  
+[Overview](https://www.votchallenge.net/howto/overview.html)
 
 ---
 
