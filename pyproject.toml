@@ -1,0 +1,11 @@
+[project]
+name = "datasetharvester"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "PyYAML>=6.0.3",
+    "questionary>=2.1.1",
+    "gdown>=5.2.0"
+]

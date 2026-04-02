@@ -13,22 +13,34 @@
 | **PUMaVOS** | ✅ Auto | - | Partial Masks|
 | **VOST** | ✅ Auto | - | - |
 | **Static** | ✅ Auto | - | Only for Training |
-| **DiDi** | ⚠️ Manual | - | Distractor Heavy |
-| **DAVIS** | ⚠️ Not Supported | 2016-2019 | - |
-| **YouTube-VOS**| ⚠️ Not Supported | 2018-2022 | - |
+| **DiDi** | ⚠️ Manual or vot-toolkit | - | Distractor Heavy |
+| **VOTS <stack>** | ⚠️ vot-toolkit | - | Annual Challenge |
+| **DAVIS** | ⚠️ external script | 2016-2019 | - |
+| **YouTube-VOS**| ⚠️ external script | 2018-2022 | - |
 
 > [!TIP]  
-> Descriptions, Official Repos & citations in [DATASETS.md](DATASETS.md).
+> Descriptions, Official Repos & citations in [documentation/DATASETS.md](DATASETS.md).
 > URLs for [supported_datasets.yaml](supported_datasets.yaml) and [not_supported_datasets.yaml](not_supported_datasets.yaml).
 
 
-### Download LVOS, MOSE, OVIS, BURST, PUMaVOS, VOST & Static
+### Quick installation
 
+Run: 
 ```fish
-python WizHarvester.py
+git clone https://github.com/Vujas-Eteph/DatasetHarvester
+cd DatasetHarvester
+uv init
+uv sync
 ```
 
-### Download the Meta's [SA-V Dataset](https://ai.meta.com/datasets/segment-anything-video/)
+### Download LVOS, MOSE, OVIS, BURST, PUMaVOS, VOST & Static
+
+Run:
+```fish
+uv run WizHarvester.py
+```
+
+### Download Meta's [SA-V Dataset](https://ai.meta.com/datasets/segment-anything-video/)
 
 1. Fill this [Meta document](https://ai.meta.com/datasets/segment-anything-video-downloads/) out to get access to the URLs.
 2. Adapt [download_SA_V.yaml](./scripts/SA_V/download_SA_V.yaml) with the URLs.
@@ -36,7 +48,7 @@ python WizHarvester.py
 4. Run
      ```fish
      cd scripts/SA_V/
-     python download_SA_V.py
+     uv run download_SA_V.py
      ```
 5. More stuff [**HERE**](https://github.com/facebookresearch/segment-anything-2/blob/main/sav_dataset)
 
