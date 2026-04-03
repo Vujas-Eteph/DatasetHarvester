@@ -29,7 +29,6 @@ Run:
 ```fish
 git clone https://github.com/Vujas-Eteph/DatasetHarvester
 cd DatasetHarvester
-uv init
 uv sync
 ```
 
