@@ -145,7 +145,7 @@ def download_dataset(parent_folder, name, splits, gdrive_global_addr, info):
 
         print(f"Starting download of {label} for {name}")
         output_path = os.path.join(target_dir, label)
-        gdown.download(url_link, output_path, quiet=False, fuzzy=True)
+        gdown.download(url_link, output_path, quiet=False)
 
         downloaded_files.append((label, output_path))
 
